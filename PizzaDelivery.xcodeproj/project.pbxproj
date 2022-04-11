@@ -13,6 +13,8 @@
 		7DD212F22804C3D5006D78E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD212F02804C3D5006D78E6 /* Main.storyboard */; };
 		7DD212F42804C3D8006D78E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD212F32804C3D8006D78E6 /* Assets.xcassets */; };
 		7DD212F72804C3D8006D78E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD212F52804C3D8006D78E6 /* LaunchScreen.storyboard */; };
+		7DD213082804CF00006D78E6 /* PizzaMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD213062804CF00006D78E6 /* PizzaMenuCell.swift */; };
+		7DD213092804CF00006D78E6 /* PizzaMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD213072804CF00006D78E6 /* PizzaMenuCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7DD212F32804C3D8006D78E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DD212F62804C3D8006D78E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DD212F82804C3D8006D78E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD213062804CF00006D78E6 /* PizzaMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaMenuCell.swift; sourceTree = "<group>"; };
+		7DD213072804CF00006D78E6 /* PizzaMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PizzaMenuCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				7DD212EA2804C3D5006D78E6 /* AppDelegate.swift */,
+				7DD213062804CF00006D78E6 /* PizzaMenuCell.swift */,
+				7DD213072804CF00006D78E6 /* PizzaMenuCell.xib */,
 				7DD212EC2804C3D5006D78E6 /* SceneDelegate.swift */,
 				7DD212EE2804C3D5006D78E6 /* ViewController.swift */,
 				7DD212F02804C3D5006D78E6 /* Main.storyboard */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD212F72804C3D8006D78E6 /* LaunchScreen.storyboard in Resources */,
+				7DD213092804CF00006D78E6 /* PizzaMenuCell.xib in Resources */,
 				7DD212F42804C3D8006D78E6 /* Assets.xcassets in Resources */,
 				7DD212F22804C3D5006D78E6 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD212EF2804C3D5006D78E6 /* ViewController.swift in Sources */,
+				7DD213082804CF00006D78E6 /* PizzaMenuCell.swift in Sources */,
 				7DD212EB2804C3D5006D78E6 /* AppDelegate.swift in Sources */,
 				7DD212ED2804C3D5006D78E6 /* SceneDelegate.swift in Sources */,
 			);
