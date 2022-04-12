@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     let pizzaImages:[String] = ["cheesy-chicken","garden-veggie","meat-supreme","mushroom","pepperoni","tangy-tomato"]
     let pizzaNames:[String] = ["Cheesy Chicken","Garden Veggie","Meat supreme","Mushroom","Pepperoni","Tangy Tomato"]
     
-    let pizzaDesc:[String] = ["Cheesy Chicken,Cheesy Chicken,Cheesy Chicken,Cheesy Chicken","Garden Veggie,Garden Veggie,Garden Veggie,Garden Veggie,Garden Veggie","Meat supreme,Meat supreme,Meat supreme,Meat supreme,Meat supreme","Mushroom,Mushroom,Mushroom,Mushroom,Mushroom,Mushroom","Pepperoni,Pepperoni,Pepperoni,Pepperoni,Pepperoni","Tangy Tomato,Tangy Tomato,Tangy Tomato,Tangy Tomato,Tangy Tomato"]
+    let pizzaDesc:[String] = ["Cheese, Seasoned Grilled Chicken Breast, Green Peppers, Pizza Mozzarella","Sliced Mushrooms, Green Pepper, Red Onion, Tomato and Pizza Mozzarella","Pepperoni, Green Pepper, Sliced Mushrooms, Red Onion and Pizza Mozzarella","Loaded with Mozzarella, Roasted Red Peppers, Green Peppers and Extra Cheese","Double Pepperoni and Extra Pizza Mozzarella, Green Pepper, Sliced Mushrooms, Red Onion","Loaded with Mozzarella, Diced Tomato,Red Onion, Sliced Mushroom and Green Pepper"]
     
     @IBOutlet weak var pizzaMenu: UITableView!
     

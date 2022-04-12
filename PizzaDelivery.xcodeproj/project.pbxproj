@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D9A05BC2804DC920000750F /* CustomizeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A05BA2804DC920000750F /* CustomizeController.swift */; };
+		7D9A05BF2804DD300000750F /* CustomizeScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A05BE2804DD300000750F /* CustomizeScreenButton.swift */; };
 		7DD212EB2804C3D5006D78E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD212EA2804C3D5006D78E6 /* AppDelegate.swift */; };
 		7DD212ED2804C3D5006D78E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD212EC2804C3D5006D78E6 /* SceneDelegate.swift */; };
 		7DD212EF2804C3D5006D78E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD212EE2804C3D5006D78E6 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D9A05BA2804DC920000750F /* CustomizeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeController.swift; sourceTree = "<group>"; };
+		7D9A05BE2804DD300000750F /* CustomizeScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeScreenButton.swift; sourceTree = "<group>"; };
 		7DD212E72804C3D5006D78E6 /* PizzaDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD212EA2804C3D5006D78E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DD212EC2804C3D5006D78E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				7DD212F32804C3D8006D78E6 /* Assets.xcassets */,
 				7DD212F52804C3D8006D78E6 /* LaunchScreen.storyboard */,
 				7DD212F82804C3D8006D78E6 /* Info.plist */,
+				7D9A05BA2804DC920000750F /* CustomizeController.swift */,
+				7D9A05BE2804DD300000750F /* CustomizeScreenButton.swift */,
 			);
 			path = PizzaDelivery;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD212EF2804C3D5006D78E6 /* ViewController.swift in Sources */,
+				7D9A05BF2804DD300000750F /* CustomizeScreenButton.swift in Sources */,
+				7D9A05BC2804DC920000750F /* CustomizeController.swift in Sources */,
 				7DD213082804CF00006D78E6 /* PizzaMenuCell.swift in Sources */,
 				7DD212EB2804C3D5006D78E6 /* AppDelegate.swift in Sources */,
 				7DD212ED2804C3D5006D78E6 /* SceneDelegate.swift in Sources */,
