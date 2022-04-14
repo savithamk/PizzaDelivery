@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7D9A05BC2804DC920000750F /* CustomizeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A05BA2804DC920000750F /* CustomizeController.swift */; };
 		7D9A05BF2804DD300000750F /* CustomizeScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A05BE2804DD300000750F /* CustomizeScreenButton.swift */; };
+		7D9A905228062A8A00250E7D /* CheckoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A905128062A8A00250E7D /* CheckoutController.swift */; };
+		7D9A905928062BCE00250E7D /* CartTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A905728062BCE00250E7D /* CartTableCell.swift */; };
+		7D9A905A28062BCE00250E7D /* CartTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A905828062BCE00250E7D /* CartTableCell.xib */; };
 		7DD212EB2804C3D5006D78E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD212EA2804C3D5006D78E6 /* AppDelegate.swift */; };
 		7DD212ED2804C3D5006D78E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD212EC2804C3D5006D78E6 /* SceneDelegate.swift */; };
 		7DD212EF2804C3D5006D78E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD212EE2804C3D5006D78E6 /* ViewController.swift */; };
@@ -22,6 +25,9 @@
 /* Begin PBXFileReference section */
 		7D9A05BA2804DC920000750F /* CustomizeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeController.swift; sourceTree = "<group>"; };
 		7D9A05BE2804DD300000750F /* CustomizeScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeScreenButton.swift; sourceTree = "<group>"; };
+		7D9A905128062A8A00250E7D /* CheckoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutController.swift; sourceTree = "<group>"; };
+		7D9A905728062BCE00250E7D /* CartTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableCell.swift; sourceTree = "<group>"; };
+		7D9A905828062BCE00250E7D /* CartTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableCell.xib; sourceTree = "<group>"; };
 		7DD212E72804C3D5006D78E6 /* PizzaDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD212EA2804C3D5006D78E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DD212EC2804C3D5006D78E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +81,9 @@
 				7DD212F82804C3D8006D78E6 /* Info.plist */,
 				7D9A05BA2804DC920000750F /* CustomizeController.swift */,
 				7D9A05BE2804DD300000750F /* CustomizeScreenButton.swift */,
+				7D9A905128062A8A00250E7D /* CheckoutController.swift */,
+				7D9A905728062BCE00250E7D /* CartTableCell.swift */,
+				7D9A905828062BCE00250E7D /* CartTableCell.xib */,
 			);
 			path = PizzaDelivery;
 			sourceTree = "<group>";
@@ -140,6 +149,7 @@
 				7DD212F72804C3D8006D78E6 /* LaunchScreen.storyboard in Resources */,
 				7DD213092804CF00006D78E6 /* PizzaMenuCell.xib in Resources */,
 				7DD212F42804C3D8006D78E6 /* Assets.xcassets in Resources */,
+				7D9A905A28062BCE00250E7D /* CartTableCell.xib in Resources */,
 				7DD212F22804C3D5006D78E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,11 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D9A905928062BCE00250E7D /* CartTableCell.swift in Sources */,
 				7DD212EF2804C3D5006D78E6 /* ViewController.swift in Sources */,
 				7D9A05BF2804DD300000750F /* CustomizeScreenButton.swift in Sources */,
 				7D9A05BC2804DC920000750F /* CustomizeController.swift in Sources */,
 				7DD213082804CF00006D78E6 /* PizzaMenuCell.swift in Sources */,
 				7DD212EB2804C3D5006D78E6 /* AppDelegate.swift in Sources */,
+				7D9A905228062A8A00250E7D /* CheckoutController.swift in Sources */,
 				7DD212ED2804C3D5006D78E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
