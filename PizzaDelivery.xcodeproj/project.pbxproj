@@ -20,6 +20,15 @@
 		7DD212F72804C3D8006D78E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD212F52804C3D8006D78E6 /* LaunchScreen.storyboard */; };
 		7DD213082804CF00006D78E6 /* PizzaMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD213062804CF00006D78E6 /* PizzaMenuCell.swift */; };
 		7DD213092804CF00006D78E6 /* PizzaMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD213072804CF00006D78E6 /* PizzaMenuCell.xib */; };
+		7DEA1C0F280E5299000A45DA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEA1C0E280E5299000A45DA /* DataService.swift */; };
+		7DEA1C11280E52E7000A45DA /* OrderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEA1C10280E52E7000A45DA /* OrderTableCell.swift */; };
+		7DEA1C13280E5307000A45DA /* Sauce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEA1C12280E5307000A45DA /* Sauce.swift */; };
+		7DEA1C15280E5320000A45DA /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEA1C14280E5320000A45DA /* Size.swift */; };
+		7DEA1C17280E533C000A45DA /* Topping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEA1C16280E533C000A45DA /* Topping.swift */; };
+		7DEA1C19280E5352000A45DA /* Crust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEA1C18280E5352000A45DA /* Crust.swift */; };
+		7DEA1C1B280E5375000A45DA /* OrderHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEA1C1A280E5375000A45DA /* OrderHistoryController.swift */; };
+		7DEA1C1D280E53A6000A45DA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEA1C1C280E53A6000A45DA /* Order.swift */; };
+		7DEA1C1F280E5569000A45DA /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEA1C1E280E5569000A45DA /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +47,15 @@
 		7DD212F82804C3D8006D78E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DD213062804CF00006D78E6 /* PizzaMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaMenuCell.swift; sourceTree = "<group>"; };
 		7DD213072804CF00006D78E6 /* PizzaMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PizzaMenuCell.xib; sourceTree = "<group>"; };
+		7DEA1C0E280E5299000A45DA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		7DEA1C10280E52E7000A45DA /* OrderTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableCell.swift; sourceTree = "<group>"; };
+		7DEA1C12280E5307000A45DA /* Sauce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sauce.swift; sourceTree = "<group>"; };
+		7DEA1C14280E5320000A45DA /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		7DEA1C16280E533C000A45DA /* Topping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topping.swift; sourceTree = "<group>"; };
+		7DEA1C18280E5352000A45DA /* Crust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crust.swift; sourceTree = "<group>"; };
+		7DEA1C1A280E5375000A45DA /* OrderHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryController.swift; sourceTree = "<group>"; };
+		7DEA1C1C280E53A6000A45DA /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		7DEA1C1E280E5569000A45DA /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +93,20 @@
 				7DD213072804CF00006D78E6 /* PizzaMenuCell.xib */,
 				7DD212EC2804C3D5006D78E6 /* SceneDelegate.swift */,
 				7DD212EE2804C3D5006D78E6 /* ViewController.swift */,
+				7DEA1C1E280E5569000A45DA /* Pizza.swift */,
 				7DD212F02804C3D5006D78E6 /* Main.storyboard */,
 				7DD212F32804C3D8006D78E6 /* Assets.xcassets */,
 				7DD212F52804C3D8006D78E6 /* LaunchScreen.storyboard */,
 				7DD212F82804C3D8006D78E6 /* Info.plist */,
 				7D9A05BA2804DC920000750F /* CustomizeController.swift */,
+				7DEA1C0E280E5299000A45DA /* DataService.swift */,
+				7DEA1C10280E52E7000A45DA /* OrderTableCell.swift */,
+				7DEA1C12280E5307000A45DA /* Sauce.swift */,
+				7DEA1C14280E5320000A45DA /* Size.swift */,
+				7DEA1C16280E533C000A45DA /* Topping.swift */,
+				7DEA1C18280E5352000A45DA /* Crust.swift */,
+				7DEA1C1A280E5375000A45DA /* OrderHistoryController.swift */,
+				7DEA1C1C280E53A6000A45DA /* Order.swift */,
 				7D9A05BE2804DD300000750F /* CustomizeScreenButton.swift */,
 				7D9A905128062A8A00250E7D /* CheckoutController.swift */,
 				7D9A905728062BCE00250E7D /* CartTableCell.swift */,
@@ -161,8 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DEA1C17280E533C000A45DA /* Topping.swift in Sources */,
+				7DEA1C19280E5352000A45DA /* Crust.swift in Sources */,
+				7DEA1C1D280E53A6000A45DA /* Order.swift in Sources */,
+				7DEA1C0F280E5299000A45DA /* DataService.swift in Sources */,
+				7DEA1C11280E52E7000A45DA /* OrderTableCell.swift in Sources */,
+				7DEA1C1B280E5375000A45DA /* OrderHistoryController.swift in Sources */,
 				7D9A905928062BCE00250E7D /* CartTableCell.swift in Sources */,
 				7DD212EF2804C3D5006D78E6 /* ViewController.swift in Sources */,
+				7DEA1C1F280E5569000A45DA /* Pizza.swift in Sources */,
+				7DEA1C15280E5320000A45DA /* Size.swift in Sources */,
+				7DEA1C13280E5307000A45DA /* Sauce.swift in Sources */,
 				7D9A05BF2804DD300000750F /* CustomizeScreenButton.swift in Sources */,
 				7D9A05BC2804DC920000750F /* CustomizeController.swift in Sources */,
 				7DD213082804CF00006D78E6 /* PizzaMenuCell.swift in Sources */,

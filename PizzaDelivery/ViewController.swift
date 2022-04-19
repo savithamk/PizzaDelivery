@@ -9,34 +9,56 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    let pizzaImages:[String] = ["cheesy-chicken","garden-veggie","meat-supreme","mushroom","pepperoni","tangy-tomato"]
-    let pizzaNames:[String] = ["Cheesy Chicken","Garden Veggie","Meat supreme","Mushroom","Pepperoni","Tangy Tomato"]
+    var offerings:[Pizza] = []
     
-    let pizzaDesc:[String] = ["Cheese, Seasoned Grilled Chicken Breast, Green Peppers, Pizza Mozzarella","Sliced Mushrooms, Green Pepper, Red Onion, Tomato and Pizza Mozzarella","Pepperoni, Green Pepper, Sliced Mushrooms, Red Onion and Pizza Mozzarella","Loaded with Mozzarella, Roasted Red Peppers, Green Peppers and Extra Cheese","Double Pepperoni and Extra Pizza Mozzarella, Green Pepper, Sliced Mushrooms, Red Onion","Loaded with Mozzarella, Diced Tomato,Red Onion, Sliced Mushroom and Green Pepper"]
+    let dataService:DataService = DataService.dataManager
     
     @IBOutlet weak var pizzaMenu: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
         self.navigationItem.backButtonTitle = ""
+        offerings = dataService.availableOfferings()
         pizzaMenu.register(UINib(nibName: "PizzaMenuCell", bundle: nil), forCellReuseIdentifier: "pizzacell")
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        pizzaNames.count
+        offerings.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = pizzaMenu.dequeueReusableCell(withIdentifier: "pizzacell", for: indexPath) as! PizzaMenuCell
         
-        cell.pizzaName.text = pizzaNames[indexPath.row]
-        cell.pizzaImage.image = UIImage(named: pizzaImages[indexPath.row])
-        cell.pizzaDesc.text = pizzaDesc[indexPath.row]
+        cell.pizzaName.text = offerings[indexPath.row].name
+        cell.pizzaImage.image = UIImage(named: offerings[indexPath.row].imageRefName)
+        cell.pizzaDesc.text = offerings[indexPath.row].fullDescription
         
         return cell
     }
-
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "customize", sender: indexPath.row)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier != "myorders"{
+            
+            let dst = segue.destination as! CustomizeController
+            if sender is Int{
+                let senderRow: Int = sender as! Int
+                dst.selectedPizza = offerings[senderRow]
+            }else {
+                dst.selectedPizza = Pizza(Id: 0, name: "Custom", fullDescription: "Create Your Own", imageRefName: "garden-veggie")
+            }
+        }
+        
+    }
+    
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {
+        //This  function must not be removed for the unwinding to work
+    }
 
 }
 
