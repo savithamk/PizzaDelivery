@@ -30,8 +30,11 @@ class DataService{
         loadDefaults()
         
         do{
-            let data = try userDefaults.object(forKey: "orderhistory") as! Data
-            orders = try JSONDecoder().decode([Order].self, from: data)
+            let data = userDefaults.object(forKey: "orderhistory")
+            if(nil != data){
+                //data = data as! Data
+                orders = try JSONDecoder().decode([Order].self, from: data as! Data)
+            }
         }catch{}
         
     }
